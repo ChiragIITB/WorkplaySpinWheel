@@ -1,0 +1,65 @@
+
+.Segment{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(156 163 175);
+    border-radius: 10px;
+    width: 98%;
+    height: 50px;
+    padding:5px;
+    margin: 4px;
+    box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.105);
+}
+
+.SegmentData{
+    border: none;
+    border-radius: 5px ; 
+    background-color: rgb(209 213 219);
+    padding: 10px;
+    flex:1;
+    margin: 5px;
+    font-size: 15px;
+    max-width: 50%;
+}
+
+
+.ColorSelection{
+    position: relative;
+    cursor: pointer;
+}
+.SegmentColor, .TextColor{
+    height: 40px;
+    width: 40px;
+    appearance: none;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none ;
+    padding: none;
+    margin: 4px;
+}
+.SegmentColorLabel, .TextColorLabel{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+
+
+.SegmentColor::-webkit-color-swatch, .TextColor::-webkit-color-swatch{
+    border-radius: 5px ;
+    border: none;
+}
+.SegmentColor::-moz-color-swatch, .TextColor::-moz-color-swatch{
+    border-radius: 5px ;
+    border: none;
+}
+
+.Segment button{
+    height: 40px;
+    width: 30px;
+    padding: 0;
+    margin: 4px;
+    background-color: rgb(209 213 219);
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+
+.WheelContainer{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+    padding:20px;
+    /* max-width:  40%; */
+}
+
+.WheelContainer img{
+    margin: 10px;
+}
+
+.canvas{
+    border: 5px solid black;
+    padding: 10px;
+
+    transform-origin: 50% 50%;
+    transform: rotateZ('0');
+
+    animation: tranform 3s ease-out;
+
+}
+
+.canvasOverlap{
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WheelContainer .SpinButton{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    /* background-color: transparent; */
+    background-color: black;
+    border-radius: 50%;
+    padding: 0;
+    color: white;
+}
+
+.WheelContainer .SpinButton .pointer{
+    position: absolute;
+}
+
+/* .WheelContainer button::after{
+    content: "SPIN";
+    color: white;
+    position: absolute;
+} */

@@ -1,0 +1,21 @@
+.Game{
+    height: 100vh;
+    background-image: url(../assets/GameStartBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Game img{
+    width: 170px;
+    margin: 40px 10px;
+}
+
+.GameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 90%;
+}

@@ -1,0 +1,20 @@
+.PrizeSettings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#Scenario{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(107 114 128);
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.434);
+}
