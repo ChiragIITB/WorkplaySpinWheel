@@ -1,7 +1,7 @@
 import "./css/SpinTheWheelMain.css";
-import CustomizePage from "./CustomizePage";
-import GameStart from "./GameStart";
-import Game from "./Game";
+import CustomizePage from "./CustomizePage.jsx";
+import GameStart from "./GameStart.jsx";
+import Game from "./Game.jsx";
 import { useState } from "react";
 
 function SpinTheWheelMain() {

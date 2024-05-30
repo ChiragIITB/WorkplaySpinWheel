@@ -1,5 +1,5 @@
 import "./css/Game.css";
-import Wheel from "./Wheel";
+import Wheel from "./Wheel.jsx";
 
 function Game() {
   return (

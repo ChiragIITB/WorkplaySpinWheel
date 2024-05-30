@@ -1,7 +1,7 @@
 import "./css/CustomSettings.css";
-import TextSettings from "./TextSettings";
-import BackgroundSettings from "./BackgroundSettings";
-import PrizeSettings from "./PrizeSettings";
+import TextSettings from "./TextSettings.jsx";
+import BackgroundSettings from "./BackgroundSettings.jsx";
+import PrizeSettings from "./PrizeSettings.jsx";
 
 function CustomSettings() {
   const segments = [

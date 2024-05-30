@@ -1,5 +1,5 @@
 import "./css/App.css";
-import SpinTheWheelMain from "./SpinTheWheelMain";
+import SpinTheWheelMain from "./SpinTheWheelMain.jsx";
 
 function App() {
   return <SpinTheWheelMain />;

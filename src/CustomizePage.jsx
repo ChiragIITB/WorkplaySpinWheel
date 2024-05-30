@@ -1,5 +1,5 @@
 import Wheel from "./Wheel";
-import CustomSettings from "./CustomSettings";
+import CustomSettings from "./CustomSettings.jsx";
 import "./css/CustomizePage.css";
 
 function CustomizePage() {

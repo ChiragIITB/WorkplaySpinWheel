@@ -1,4 +1,4 @@
-import PrizeSettingSegment from "./PrizeSettingSegment";
+import PrizeSettingSegment from "./PrizeSettingSegment.jsx";
 import "./css/PrizeSettings.css";
 
 function PrizeSettings({ segments, segmentColors, segmentFontColors }) {
